@@ -1,0 +1,164 @@
+@import "~bootstrap/scss/bootstrap";
+body, html {
+    font-family: "Montserrat", sans-serif;
+    color:#e62183;
+    background: white;
+    height: 100%;
+}
+ul {
+    list-style: none;
+}
+.nav-bar{
+    display: flex;
+    background-color: #fcbddc;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+.nav-item{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px;
+}
+#logo{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 24px;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #161414;
+}
+.nav-bar a:hover{
+    color:#e62183;
+}
+Link{
+    text-decoration: none;
+}
+#tn-link{
+    text-decoration: none;
+}
+#tn-card{
+    width: 15rem;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+#tn-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color:#161414;
+    text-decoration: underline;
+}
+#tn-tags{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3a3535;
+}
+.all-posts{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#create{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 24px;
+}
+#share{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.create-post-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+label{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.form-group{
+    padding: 10px;
+}
+form{
+    padding:15px;
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+#done-icon{
+    margin-left: 40px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+#edit-icon{
+    margin-left: 100px;
+}
+.post-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+#post-card{
+    align-items: center;
+    text-align: center;
+    width: 40rem;
+    padding: 20px;
+}
+#post-img{
+    max-width: 400px;
+    max-height: 500px;
+}
+#post-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #161414;
+    text-decoration: underline;
+}
+#post-tags{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3a3535;
+}
+#post-content{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #161414;
+}
+#edit-icon:hover,#delete-icon:hover,#done-icon:hover{
+    cursor: pointer;
+    transition: all 0.25s ease 0s;
+    transform: scale(1.1);
+}
+#tn-card:hover{
+    cursor: pointer;
+    transition: all 0.25s ease 0s;
+    transform: scale(1.05);
+}
+#error-msg{
+    margin-left: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
