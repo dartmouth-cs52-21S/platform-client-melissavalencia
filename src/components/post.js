@@ -4,8 +4,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withRouter, Link } from 'react-router-dom';
-// import ReactMarkdown from 'react-markdown';
-// import TextareaAutosize from 'react-textarea-autosize';
 import { fetchPost, deletePost, updatePost } from '../actions';
 
 class Post extends Component {
@@ -103,10 +101,6 @@ class Post extends Component {
       );
     } else {
       return (
-      // <div>
-      //   <h1 className="title">{this.props.post.title}</h1>
-      //   {/* <div> {this.props.note.text} </div> */}
-      //   <ReactMarkdown id="normal-text">{this.props.post.content || ''}</ReactMarkdown>
         <div className="post-container">
           <div className="card" id="post-card">
             <img className="card-img-top" id="post-img" src={this.props.post.coverUrl} alt="Card image cap" />
