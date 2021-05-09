@@ -12,11 +12,11 @@ Some bootstrap components were giving me a hard time. For some reason when using
 Error action and error message to handle axios errors.
 ## Screenshots
 Home Page
-![screencapture-jovial-almeida-e804bb-netlify-app-2021-05-08-19_36_16](https://user-images.githubusercontent.com/72226780/117558772-e283ab80-b034-11eb-8f4f-7b173ef76f2a.png)
+![screencapture-jovial-almeida-e804bb-netlify-app-2021-05-08-19_40_34](https://user-images.githubusercontent.com/72226780/117558842-663d9800-b035-11eb-8dba-696adc4cb4ea.png)
 Individual Post
-![screencapture-jovial-almeida-e804bb-netlify-app-posts-6096544fd83e3a0038702b6c-2021-05-08-19_36_30](https://user-images.githubusercontent.com/72226780/117558761-d39cf900-b034-11eb-806a-86335dcda6d8.png)
+![screencapture-jovial-almeida-e804bb-netlify-app-posts-6096544fd83e3a0038702b6c-2021-05-08-19_40_45](https://user-images.githubusercontent.com/72226780/117558847-6b9ae280-b035-11eb-8c32-d550c434bb14.png)
 Edit Post
-![screencapture-jovial-almeida-e804bb-netlify-app-posts-6096544fd83e3a0038702b6c-2021-05-08-19_36_38](https://user-images.githubusercontent.com/72226780/117558765-d697e980-b034-11eb-8dc2-7b866224ea11.png)
+![screencapture-jovial-almeida-e804bb-netlify-app-posts-6096544fd83e3a0038702b6c-2021-05-08-19_41_24](https://user-images.githubusercontent.com/72226780/117558852-72295a00-b035-11eb-85d5-5729c1368357.png)
 Create New Post
 ![screencapture-jovial-almeida-e804bb-netlify-app-posts-new-2021-05-08-19_36_22](https://user-images.githubusercontent.com/72226780/117558768-d8fa4380-b034-11eb-9e35-577eb4b3a64a.png)
 Error Message
