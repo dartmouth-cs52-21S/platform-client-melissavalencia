@@ -5,7 +5,7 @@ Stuntin: A blog for sharing fashion inspo and styles! Post designs, fits, color 
 [deployed url](https://jovial-almeida-e804bb.netlify.app/)
 
 ## What Worked Well
-Bootstrap components made it easier and quicker to style (i.e. cards). 
+Bootstrap components made it easier and quicker to style (i.e. cards). Using a thumbnail variable to display all the posts saved me a lot of time (shoutout Thomas!) and allowed for quicker styling. 
 ## What Didn't
 Some bootstrap components were giving me a hard time. For some reason when using form, my update function would not work, so I opted to use divs instead. Figuring out the update function was a bit tricky as i was getting state and props confused at times.
 ## Extra Credit
