@@ -7,7 +7,7 @@ Stuntin: A blog for sharing fashion inspo and styles! Post designs, fits, color 
 ## What Worked Well
 Bootstrap components made it easier and quicker to style (i.e. cards). 
 ## What Didn't
-Some bootstrap components were giving me a hard time. For some reason when using form, my update function would not work, so I opted to use divs instead.
+Some bootstrap components were giving me a hard time. For some reason when using form, my update function would not work, so I opted to use divs instead. Figuring out the update function was a bit tricky as i was getting state and props confused at times.
 ## Extra Credit
 Error action and error message to handle axios errors and css transitions.
 ## Screenshots
