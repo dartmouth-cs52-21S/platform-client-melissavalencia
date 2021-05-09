@@ -9,7 +9,7 @@ Bootstrap components made it easier and quicker to style (i.e. cards).
 ## What Didn't
 Some bootstrap components were giving me a hard time. For some reason when using form, my update function would not work, so I opted to use divs instead.
 ## Extra Credit
-Error action and error message to handle axios errors.
+Error action and error message to handle axios errors and css transitions.
 ## Screenshots
 Home Page
 ![screencapture-jovial-almeida-e804bb-netlify-app-2021-05-08-19_40_34](https://user-images.githubusercontent.com/72226780/117558842-663d9800-b035-11eb-8dba-696adc4cb4ea.png)
