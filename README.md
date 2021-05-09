@@ -2,7 +2,7 @@
 Stuntin: A blog for sharing fashion inspo and styles! Post designs, fits, color schemes, patterns, etc.
 *description*
 
-[deployed url](https://jovial-almeida-e804bb.netlify.app)
+[deployed url](https://jovial-almeida-e804bb.netlify.app/)
 
 ## What Worked Well
 Bootstrap components made it easier and quicker to style (i.e. cards). 
