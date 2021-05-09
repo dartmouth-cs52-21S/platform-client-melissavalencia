@@ -1,5 +1,5 @@
 # Title
-A blog for sharing fashion inspo and styles! Post designs, fits, color schemes, patterns, etc.
+Stuntin: A blog for sharing fashion inspo and styles! Post designs, fits, color schemes, patterns, etc.
 *description*
 
 [deployed url](https://jovial-almeida-e804bb.netlify.app)
