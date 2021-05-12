@@ -68,7 +68,7 @@ class Post extends Component {
       content: '',
       coverUrl: '',
     });
-    this.props.fetchPost(this.props.match.params.postID);
+    // this.props.fetchPost(this.props.match.params.postID);
   }
 
   renderMap = () => {

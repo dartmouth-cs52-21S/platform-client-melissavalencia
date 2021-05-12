@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const ROOT_URL = 'https://platform.cs52.me/api';
+// const ROOT_URL = 'https://platform.cs52.me/api';
+const ROOT_URL = 'http://localhost:9090/api';
 const API_KEY = '?key=m_valencia';
 // keys for actiontypes
 export const ActionTypes = {
@@ -51,7 +52,8 @@ export function updatePost(id, post) {
   return (dispatch) => {
     axios.put(`${ROOT_URL}/posts/${id}${API_KEY}`, post).then((response) => {
       dispatch({ type: ActionTypes.FETCH_POST, payload: response.data });
-    }).catch((error) => {
-    });
+    })
+      .catch((error) => {
+      });
   };
 }
