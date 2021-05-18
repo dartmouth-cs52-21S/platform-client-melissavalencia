@@ -19,7 +19,7 @@ const App = (props) => {
       <Switch>
         <Route exact path="/" component={Posts} />
         <PrivateRoute path="/posts/new" component={NewPost} />
-        <Route path="/posts/:postID" component={Post} />
+        <PrivateRoute path="/posts/:postID" component={Post} />
         {/* <Route path="/posts/new" component={NewPost} /> */}
         <Route path="/signin" component={SignIn} />
         <Route path="/signup" component={SignUp} />
