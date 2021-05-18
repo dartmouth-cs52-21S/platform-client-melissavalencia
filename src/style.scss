@@ -162,3 +162,29 @@ form{
     font-weight: 600;
 }
 
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#signin-button, #signup-button{
+    padding:5px;
+    font-size: 20px;
+    border-radius: 2px;
+    background-color: #e62183;
+    border: 3px solid #fcbddc;
+    color:#fdedf5;
+}
+
+#signin-button:hover, #signup-button:hover{
+    background-color: #fcbddc;
+    border: 3px solid #e62183;
+    color:#e62183;
+}
+
+#si-title, #su-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+

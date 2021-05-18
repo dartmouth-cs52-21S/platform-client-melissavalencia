@@ -108,6 +108,7 @@ class Post extends Component {
               <h5 className="card-title" id="post-title">{this.props.post.title}</h5>
               <p className="card-tags" id="post-tags">{this.props.post.tags}</p>
               <p className="card-content" id="post-content">{this.props.post.content}</p>
+              <p className="card-author" id="post-author">author: {this.props.post?.author?.username}</p>
             </div>
             <div className="icon-container">
               <img className="icon" id="delete-icon" src="https://static.thenounproject.com/png/3896196-200.png" alt="delete-icon" onClick={this.handleDeleteClick} />
