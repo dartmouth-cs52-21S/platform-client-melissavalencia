@@ -4,7 +4,7 @@ Stuntin: A blog for sharing fashion inspo and styles! Post designs, fits, color 
 
 [deployed url](https://jovial-almeida-e804bb.netlify.app/)
 
-Now with authentication implementation: [deployed url](https://stuntin-with-auth.netlify.app/)
+Now with authentication implementation: [deployed url](https://stuntin-with-auth.netlify.app/) 
 Prompts users to sign in when trying to create a new post and when they try to view a post.
 
 ## What Worked Well
